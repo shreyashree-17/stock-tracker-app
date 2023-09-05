@@ -33,7 +33,7 @@ export default function Navbar({ handleThemeChange, toggleSidebar}) {
                         edge="start"
                         onClick={toggleSidebar} 
                     >
-                        <MenuIcon/> {/* Add the Hamburger icon */}
+                        <MenuIcon/> 
                     </IconButton>}
                     <ShowChartIcon /><b>Tracker</b>
                     <Searchbar />
