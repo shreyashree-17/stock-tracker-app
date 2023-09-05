@@ -1,5 +1,7 @@
 # Tracker app
 This is an application developed using `ReactJS`, `Material-UI` and `ChartJS`.
+Deployed on github-pages:
+https://shreyashree-17.github.io/stock-tracker-app/
 
 ## Features
 * Display data using bar chart, pie chart, etc. (`ChartJS` library used)
