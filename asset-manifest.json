@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/stock-tracker-app/static/css/main.1c6c1cc1.css",
+    "main.js": "/stock-tracker-app/static/js/main.26a4f803.js",
+    "static/media/rightColumnImg.png": "/stock-tracker-app/static/media/rightColumnImg.cc3209b0bbbca9058856.png",
+    "index.html": "/stock-tracker-app/index.html",
+    "main.1c6c1cc1.css.map": "/stock-tracker-app/static/css/main.1c6c1cc1.css.map",
+    "main.26a4f803.js.map": "/stock-tracker-app/static/js/main.26a4f803.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c6c1cc1.css",
+    "static/js/main.26a4f803.js"
+  ]
+}
