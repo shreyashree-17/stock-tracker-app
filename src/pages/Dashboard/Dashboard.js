@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
-import Navbar from '../Navbar/Navbar';
-import Sidebar from '../Sidebar/Sidebar';
+import Navbar from '../../components/Navbar/Navbar';
+import Sidebar from '../../components/Sidebar/Sidebar';
 import { Grid } from '@mui/material';
-import BarChart from '../Charts/BarChart';
-import UpdateChart from '../Charts/UpdateChart';
-import ExpandedBarChart from '../Charts/ExpandedBarChart';
-import PieChart from '../Charts/PieChart';
-import WelcomeMsg from '../WelcomeMsg/WelcomeMsg';
+import BarChart from '../../components/Charts/BarChart';
+import UpdateChart from '../../components/Charts/UpdateChart';
+import ExpandedBarChart from '../../components/Charts/ExpandedBarChart';
+import PieChart from '../../components/Charts/PieChart';
+import WelcomeMsg from '../../components/WelcomeMsg/WelcomeMsg';
 
 export default function Dashboard({ handleThemeChange }) {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);

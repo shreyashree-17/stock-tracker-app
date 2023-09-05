@@ -1,5 +1,8 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createTheme } from "@mui/material";
-import Dashboard from "./components/Dashboard/Dashboard";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import LoginPage from './pages/LoginPage/LoginPage';
+import SharedLayout from './pages/SharedLayout'
 import { useState } from "react";
 
 function App() {
@@ -17,7 +20,14 @@ function App() {
   }
   return (
     <ThemeProvider theme={theme}>
-      <Dashboard handleThemeChange={handleThemeChange} />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/stock-tracker-app' element={<SharedLayout />}>
+            <Route index element={<Dashboard handleThemeChange={handleThemeChange} />}/>
+          </Route>
+          <Route path='login' element={<LoginPage/>} />
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
